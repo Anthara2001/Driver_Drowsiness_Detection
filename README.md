@@ -6,6 +6,7 @@ This python project uses OpenCV, NumPy, Dlib, imutils python packages.
 
 ### Working
 The project works with the 6 facial landmark detector and face detector of the Dlib library. The 68 facial landmark detector detects the points on the human face using which we determine whether the eyes are open or they are closed.
+
 ![Screenshot (20)](https://user-images.githubusercontent.com/112397401/188824078-b9d5a0cf-8a50-4604-a7df-5d557fc98848.png)
 
 In the above screenshot the landmarks are detected using the detector.
