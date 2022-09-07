@@ -1,7 +1,10 @@
 # Driver_Drowsiness_Detection
 Driver drowsiness detection is a car safety technology which helps prevent accidents caused by the driver getting drowsy.
+
 This system continuously assesses the driver's eyes and alerts him with alarms if the system detects that the driver closes his eyes very often.
+
 A webcam is required for this project for the system to monitor the driver's eyes regularly.
+
 This python project uses OpenCV, NumPy, Dlib, imutils python packages.
 
 ### Working
@@ -10,7 +13,9 @@ The project works with the 6 facial landmark detector and face detector of the D
 ![Screenshot (20)](https://user-images.githubusercontent.com/112397401/188824078-b9d5a0cf-8a50-4604-a7df-5d557fc98848.png)
 
 In the above screenshot the landmarks are detected using the detector.
+
 Now we take the ratio of sum of distances of vertical landmarks to twice the distance between horizontal landmarks.
+
 This ratio depends on the system which we may configure accordingly for the thresholds of active,drowsy,sleeping.
 
 ![Screenshot (23)](https://user-images.githubusercontent.com/112397401/188825655-88050275-d442-4e90-bdd1-165505bd6eb1.png)
